@@ -43,6 +43,11 @@ export default function AboutPage() {
           <li>A demonstration of multi-causal analysis</li>
         </ul>
 
+        <h2 className="font-serif text-lg font-bold text-text-primary pt-4">Built by</h2>
+        <p>
+          Made by <strong className="text-text-primary">jerrysoer</strong> and <strong className="text-text-primary">Claude</strong>.
+        </p>
+
         <h2 className="font-serif text-lg font-bold text-text-primary pt-4">Open Source</h2>
         <p>
           This project is released under the MIT License. No ads, no paywall — this is a public
