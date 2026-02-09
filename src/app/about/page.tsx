@@ -48,10 +48,48 @@ export default function AboutPage() {
           Made by <strong className="text-text-primary">jerrysoer</strong> and <strong className="text-text-primary">Claude</strong>.
         </p>
 
+        <h2 className="font-serif text-lg font-bold text-text-primary pt-4">Data Sources</h2>
+        <p>
+          Every chart is backed by publicly verifiable data. Our primary sources include:
+        </p>
+        <div className="grid gap-3 sm:grid-cols-2 pt-2">
+          {[
+            { name: 'FRED (Federal Reserve)', url: 'https://fred.stlouisfed.org/', desc: 'Economic time series data' },
+            { name: 'Bureau of Labor Statistics', url: 'https://www.bls.gov/data/', desc: 'Employment, wages, CPI' },
+            { name: 'Economic Policy Institute', url: 'https://www.epi.org/data/', desc: 'Wage and inequality data' },
+            { name: 'US Census Bureau', url: 'https://www.census.gov/data.html', desc: 'Income, housing, demographics' },
+            { name: 'Congressional Budget Office', url: 'https://www.cbo.gov/data/budget-economic-data', desc: 'Budget and economic projections' },
+            { name: 'World Inequality Database', url: 'https://wid.world/', desc: 'Global wealth distribution' },
+          ].map((source) => (
+            <a
+              key={source.name}
+              href={source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-border bg-bg-card p-3 transition-colors hover:border-accent-blue group"
+            >
+              <div className="text-sm font-bold text-text-primary group-hover:text-accent-blue transition-colors">{source.name}</div>
+              <div className="text-xs text-text-secondary mt-0.5">{source.desc}</div>
+            </a>
+          ))}
+        </div>
+
+        <h2 className="font-serif text-lg font-bold text-text-primary pt-4">Learn More</h2>
+        <p>
+          Want to dig deeper into data literacy and critical thinking about economics?
+        </p>
+        <ul className="list-disc list-inside space-y-1 pt-1">
+          <li><a href="https://www.gapminder.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-accent-blue hover:underline">Gapminder</a> — Fighting misconceptions with data</li>
+          <li><a href="https://ourworldindata.org/" target="_blank" rel="noopener noreferrer" className="font-semibold text-accent-blue hover:underline">Our World in Data</a> — Research and data on global problems</li>
+          <li><a href="https://www.slowboring.com/" target="_blank" rel="noopener noreferrer" className="font-semibold text-accent-blue hover:underline">Slow Boring</a> — Data-driven policy analysis</li>
+          <li><a href="https://fivethirtyeight.com/" target="_blank" rel="noopener noreferrer" className="font-semibold text-accent-blue hover:underline">FiveThirtyEight</a> — Statistical journalism</li>
+        </ul>
+
         <h2 className="font-serif text-lg font-bold text-text-primary pt-4">Open Source</h2>
         <p>
           This project is released under the MIT License. No ads, no paywall — this is a public
-          service educational project. Contributions are welcome.
+          service educational project. Contributions are welcome on{' '}
+          <a href="https://github.com/jerrysoer/check-the-charts" target="_blank" rel="noopener noreferrer" className="font-semibold text-accent-blue hover:underline">GitHub</a>.
         </p>
       </div>
 

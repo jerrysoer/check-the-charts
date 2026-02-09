@@ -3,13 +3,14 @@
 import { useState } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, AlertCircle, CheckCircle2, BookOpen } from 'lucide-react';
 import { getChartById } from '@/lib/charts';
 import type { ViewMode } from '@/lib/types';
 import InteractiveChart from '@/components/InteractiveChart';
 import ViewModeSwitcher from '@/components/ViewModeSwitcher';
 import CauseAnalysis from '@/components/CauseAnalysis';
 import SourceVerification from '@/components/SourceVerification';
+import ShareButton from '@/components/ShareButton';
 import { CATEGORY_LABELS } from '@/lib/types';
 
 export default function ChartDetailPage() {
@@ -59,12 +60,23 @@ export default function ChartDetailPage() {
 
       {/* Header */}
       <div className="px-6 pt-5 pb-6 border-b border-border sm:px-8">
-        <span className="text-[11px] font-bold uppercase tracking-[0.1em] text-accent-blue">
-          {CATEGORY_LABELS[chart.category]}
-        </span>
-        <h1 className="mt-2 font-serif text-[30px] font-extrabold leading-[1.1] tracking-tight text-text-primary sm:text-4xl">
-          {chart.title}
-        </h1>
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <span className="text-[11px] font-bold uppercase tracking-[0.1em] text-accent-blue">
+              {CATEGORY_LABELS[chart.category]}
+            </span>
+            <h1 className="mt-2 font-serif text-[30px] font-extrabold leading-[1.1] tracking-tight text-text-primary sm:text-4xl">
+              {chart.title}
+            </h1>
+          </div>
+          <div className="mt-2 flex-shrink-0">
+            <ShareButton
+              title={chart.title}
+              text={chart.subtitle}
+              chartId={chart.id}
+            />
+          </div>
+        </div>
         <p className="mt-2 text-sm text-text-secondary leading-relaxed">{chart.subtitle}</p>
       </div>
 
@@ -168,6 +180,70 @@ export default function ChartDetailPage() {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Learn More / All Sources */}
+      <div className="px-6 py-6 border-t border-border sm:px-8">
+        <div className="mx-auto max-w-6xl">
+          <h3 className="text-[10px] font-bold uppercase tracking-[0.14em] text-text-tertiary mb-4">
+            All Sources for This Chart
+          </h3>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {/* Primary data source */}
+            <a
+              href={chart.dataSource.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl border border-border bg-bg-card p-3.5 transition-colors hover:border-accent-blue group"
+            >
+              <div className="text-[9px] font-bold uppercase tracking-[0.12em] text-accent-sage mb-1">Primary Source</div>
+              <div className="text-sm font-bold text-text-primary group-hover:text-accent-blue transition-colors">{chart.dataSource.name}</div>
+              <div className="mt-1 font-mono text-[10px] text-text-tertiary truncate">{chart.dataSource.url.replace(/^https?:\/\//, '')}</div>
+            </a>
+            {/* Causal factor sources */}
+            {chart.causes.map((cause) => (
+              <a
+                key={cause.name}
+                href={cause.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-xl border border-border bg-bg-card p-3.5 transition-colors hover:border-accent-blue group"
+              >
+                <div className="text-[9px] font-bold uppercase tracking-[0.12em] text-accent-blue mb-1">Factor Source</div>
+                <div className="text-sm font-bold text-text-primary group-hover:text-accent-blue transition-colors">{cause.source}</div>
+                <div className="mt-1 font-mono text-[10px] text-text-tertiary truncate">{cause.sourceUrl.replace(/^https?:\/\//, '')}</div>
+              </a>
+            ))}
+          </div>
+
+          {/* Learn More */}
+          <div className="mt-6 rounded-xl border border-border bg-bg-secondary p-5">
+            <div className="flex items-center gap-2 mb-3">
+              <BookOpen className="h-4 w-4 text-accent-blue" />
+              <h3 className="text-sm font-bold text-text-primary">Want to learn more?</h3>
+            </div>
+            <div className="grid gap-2 sm:grid-cols-2">
+              <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-accent-blue hover:underline">
+                FRED Economic Data &rarr;
+              </a>
+              <a href="https://www.bls.gov/data/" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-accent-blue hover:underline">
+                Bureau of Labor Statistics &rarr;
+              </a>
+              <a href="https://www.epi.org/data/" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-accent-blue hover:underline">
+                Economic Policy Institute &rarr;
+              </a>
+              <a href="https://www.census.gov/data.html" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-accent-blue hover:underline">
+                US Census Bureau &rarr;
+              </a>
+              <a href="https://www.cbo.gov/data/budget-economic-data" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-accent-blue hover:underline">
+                Congressional Budget Office &rarr;
+              </a>
+              <a href="https://wid.world/" target="_blank" rel="noopener noreferrer" className="text-xs font-semibold text-accent-blue hover:underline">
+                World Inequality Database &rarr;
+              </a>
             </div>
           </div>
         </div>
