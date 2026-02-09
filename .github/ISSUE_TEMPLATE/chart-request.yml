@@ -1,0 +1,50 @@
+name: "Chart Request"
+description: Suggest a new chart or dataset to add
+title: "[Chart Request] "
+labels: ["chart-request"]
+body:
+  - type: input
+    id: chart-title
+    attributes:
+      label: Chart title
+      description: What trend or metric should we visualize?
+      placeholder: "e.g. Student Loan Debt vs. Starting Salaries"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this chart important?
+      description: What common claim or misconception does it address?
+      placeholder: "People often say X, but the data actually shows..."
+    validations:
+      required: true
+  - type: input
+    id: data-source
+    attributes:
+      label: Data source (if known)
+      description: Link to a public dataset (FRED, BLS, Census, etc.)
+      placeholder: "https://fred.stlouisfed.org/series/..."
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Wages & Income
+        - Housing & Cost of Living
+        - Inequality & Wealth
+        - Trade & Industry
+        - Government & Policy
+        - Health & Demographics
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else — competing interpretations, related charts, etc.
+    validations:
+      required: false

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="8" fill="#C55A3A"/>
+  <!-- Upper diverging line -->
+  <path
+    d="M5 16 Q12 15, 16 12 T27 5"
+    fill="none"
+    stroke="#FEFBF4"
+    stroke-width="3"
+    stroke-linecap="round"
+  />
+  <!-- Lower diverging line -->
+  <path
+    d="M5 16 Q12 17, 16 20 T27 27"
+    fill="none"
+    stroke="#FEFBF4"
+    stroke-width="3"
+    stroke-linecap="round"
+    opacity="0.5"
+  />
+  <!-- Origin dot -->
+  <circle cx="5" cy="16" r="2.5" fill="#FEFBF4"/>
+</svg>

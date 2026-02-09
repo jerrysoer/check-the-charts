@@ -85,6 +85,31 @@ export default function AboutPage() {
           <li><a href="https://fivethirtyeight.com/" target="_blank" rel="noopener noreferrer" className="font-semibold text-accent-blue hover:underline">FiveThirtyEight</a> — Statistical journalism</li>
         </ul>
 
+        <h2 className="font-serif text-lg font-bold text-text-primary pt-4">Suggest a Chart</h2>
+        <p>
+          Have a chart idea or spotted a trend that needs honest analysis? We want to hear from you.
+        </p>
+        <div className="grid gap-3 sm:grid-cols-2 pt-2">
+          <a
+            href="https://github.com/jerrysoer/check-the-charts/issues/new?template=chart-request.yml"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl border border-accent-orange/20 bg-[#FEF7F4] p-4 transition-colors hover:border-accent-orange group"
+          >
+            <div className="text-sm font-bold text-text-primary group-hover:text-accent-orange transition-colors">Request a Chart</div>
+            <div className="text-xs text-text-secondary mt-0.5">Suggest a new dataset or trend to visualize</div>
+          </a>
+          <a
+            href="https://github.com/jerrysoer/check-the-charts/issues/new?template=feedback.yml"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-xl border border-accent-blue/20 bg-[#F4F7FE] p-4 transition-colors hover:border-accent-blue group"
+          >
+            <div className="text-sm font-bold text-text-primary group-hover:text-accent-blue transition-colors">Give Feedback</div>
+            <div className="text-xs text-text-secondary mt-0.5">Report data issues, suggest improvements, or share thoughts</div>
+          </a>
+        </div>
+
         <h2 className="font-serif text-lg font-bold text-text-primary pt-4">Open Source</h2>
         <p>
           This project is released under the MIT License. No ads, no paywall — this is a public
@@ -93,7 +118,7 @@ export default function AboutPage() {
         </p>
       </div>
 
-      <div className="mt-10">
+      <div className="mt-10 flex flex-wrap gap-3">
         <Link
           href="/explore"
           className="group inline-flex items-center gap-2 rounded-xl bg-accent-orange px-6 py-3 text-sm font-bold text-white transition-all hover:bg-accent-orange/90 shadow-lg shadow-accent-orange/20"
@@ -101,6 +126,14 @@ export default function AboutPage() {
           Explore the Charts
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
         </Link>
+        <a
+          href="https://github.com/jerrysoer/check-the-charts/issues/new?template=chart-request.yml"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-xl border border-border px-6 py-3 text-sm font-bold text-text-secondary transition-colors hover:border-accent-orange hover:text-accent-orange"
+        >
+          Request a Chart
+        </a>
       </div>
     </div>
   );

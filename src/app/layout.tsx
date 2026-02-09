@@ -23,6 +23,10 @@ export const metadata: Metadata = {
   title: "Check the Charts — Data Literacy Project",
   description:
     "An educational web app that teaches critical thinking about economic data through interactive exploration of trends since 1971.",
+  icons: {
+    icon: "/icon.svg",
+    apple: "/apple-icon.svg",
+  },
   openGraph: {
     title: "Check the Charts — Data Literacy Project",
     description:
