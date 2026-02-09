@@ -1,0 +1,237 @@
+[
+  {
+    "id": "wage-productivity-gap",
+    "category": "wages",
+    "title": "The Wage-Productivity Gap",
+    "subtitle": "Hourly compensation vs. productivity growth (1948=100)",
+    "commonClaim": "Wages stopped tracking productivity in 1971 when Nixon ended the gold standard.",
+    "actualTrend": "The divergence began in the early 1970s but accelerated in the 1980s. Multiple factors — not just monetary policy — drove the gap, including globalization, declining unions, technological change, and policy choices.",
+    "dataSource": {
+      "name": "Economic Policy Institute (EPI), BLS data",
+      "url": "https://www.epi.org/productivity-pay-gap/",
+      "lastUpdated": "2024-09"
+    },
+    "valueLabel": "Productivity",
+    "secondaryValueLabel": "Hourly Compensation",
+    "unit": "Index (1948=100)",
+    "chartData": [
+      { "year": 1948, "value": 100, "secondaryValue": 100 },
+      { "year": 1950, "value": 108, "secondaryValue": 107 },
+      { "year": 1953, "value": 119, "secondaryValue": 118 },
+      { "year": 1955, "value": 127, "secondaryValue": 126 },
+      { "year": 1957, "value": 133, "secondaryValue": 132 },
+      { "year": 1960, "value": 142, "secondaryValue": 140 },
+      { "year": 1963, "value": 155, "secondaryValue": 152 },
+      { "year": 1965, "value": 167, "secondaryValue": 164 },
+      { "year": 1967, "value": 175, "secondaryValue": 172 },
+      { "year": 1970, "value": 186, "secondaryValue": 183 },
+      { "year": 1971, "value": 192, "secondaryValue": 188 },
+      { "year": 1973, "value": 200, "secondaryValue": 192 },
+      { "year": 1975, "value": 210, "secondaryValue": 193 },
+      { "year": 1978, "value": 221, "secondaryValue": 198 },
+      { "year": 1980, "value": 225, "secondaryValue": 197 },
+      { "year": 1983, "value": 237, "secondaryValue": 198 },
+      { "year": 1985, "value": 248, "secondaryValue": 200 },
+      { "year": 1988, "value": 260, "secondaryValue": 203 },
+      { "year": 1990, "value": 270, "secondaryValue": 206 },
+      { "year": 1993, "value": 283, "secondaryValue": 207 },
+      { "year": 1995, "value": 293, "secondaryValue": 208 },
+      { "year": 1998, "value": 315, "secondaryValue": 215 },
+      { "year": 2000, "value": 334, "secondaryValue": 222 },
+      { "year": 2003, "value": 357, "secondaryValue": 225 },
+      { "year": 2005, "value": 375, "secondaryValue": 228 },
+      { "year": 2008, "value": 389, "secondaryValue": 231 },
+      { "year": 2010, "value": 405, "secondaryValue": 233 },
+      { "year": 2013, "value": 418, "secondaryValue": 236 },
+      { "year": 2015, "value": 430, "secondaryValue": 240 },
+      { "year": 2018, "value": 448, "secondaryValue": 246 },
+      { "year": 2020, "value": 460, "secondaryValue": 252 },
+      { "year": 2023, "value": 475, "secondaryValue": 258 }
+    ],
+    "annotations": [
+      { "year": 1971, "label": "Nixon ends gold standard", "description": "US suspends dollar convertibility to gold (Nixon Shock)" },
+      { "year": 1973, "label": "Oil crisis", "description": "OPEC embargo causes first oil price shock" },
+      { "year": 1981, "label": "Reagan tax cuts", "description": "Economic Recovery Tax Act significantly cuts top marginal rates" },
+      { "year": 1994, "label": "NAFTA enacted", "description": "North American Free Trade Agreement takes effect" },
+      { "year": 2001, "label": "China joins WTO", "description": "China's accession to World Trade Organization accelerates offshoring" },
+      { "year": 2008, "label": "Financial crisis", "description": "Great Recession begins, wages stagnate further" }
+    ],
+    "causes": [
+      { "name": "Globalization & trade competition", "weight": 30, "description": "Competition from lower-wage countries put downward pressure on wages, especially in manufacturing.", "source": "Autor, Dorn & Hanson (2013)", "sourceUrl": "https://economics.mit.edu/research/publications/china-syndrome-local-labor-market-effects-import-competition" },
+      { "name": "Declining union membership", "weight": 25, "description": "Union membership fell from 35% in 1954 to 10% by 2023, reducing workers' bargaining power.", "source": "Bureau of Labor Statistics", "sourceUrl": "https://www.bls.gov/news.release/union2.nr0.htm" },
+      { "name": "Technology & automation", "weight": 20, "description": "Technology increased productivity but displaced middle-skill jobs, creating a 'hollowed out' labor market.", "source": "Acemoglu & Restrepo (2019)", "sourceUrl": "https://economics.mit.edu/research/publications/automation-and-new-tasks-how-technology-displaces-and-reinstates-labor" },
+      { "name": "Policy choices (tax, minimum wage)", "weight": 15, "description": "Top tax rate cuts, stagnant minimum wage, and deregulation shifted income toward capital owners.", "source": "Congressional Budget Office", "sourceUrl": "https://www.cbo.gov/publication/58353" },
+      { "name": "Measurement differences", "weight": 10, "description": "Some of the gap reflects using different price deflators for productivity vs. compensation.", "source": "Bivens & Mishel (2015), EPI", "sourceUrl": "https://www.epi.org/publication/understanding-the-historic-divergence-between-productivity-and-a-typical-workers-pay-why-it-matters-and-why-its-real/" }
+    ],
+    "skepticView": {
+      "title": "The gap is partly a measurement artifact",
+      "summary": "Using consistent deflators narrows the gap significantly. Total compensation (including benefits) has grown more than wages alone.",
+      "interpretation": "While a real divergence exists, the dramatic visuals often exaggerate it. The choice of deflator, the exclusion of benefits, and top-coding of survey data all inflate the apparent gap. The story is more nuanced than 'workers got nothing.'"
+    },
+    "neutralView": {
+      "title": "Multiple forces drove a real divergence",
+      "summary": "A genuine gap opened between productivity and typical worker compensation starting in the 1970s, driven by globalization, declining unions, technology, and policy choices.",
+      "interpretation": "The divergence is real but didn't have a single cause. It accelerated at different points: the 1970s oil shocks, 1980s deregulation, 2000s China shock. Attributing it solely to the end of the gold standard oversimplifies a complex economic transformation."
+    },
+    "believerView": {
+      "title": "Abandoning the gold standard broke the link",
+      "summary": "Once the dollar was decoupled from gold in 1971, monetary expansion allowed asset prices to surge while wages stagnated in real terms.",
+      "interpretation": "The timing is clear: wages and productivity tracked closely until 1971, then diverged. Fiat money enabled credit expansion that disproportionately benefited asset holders, while inflation eroded real wages for workers."
+    }
+  },
+  {
+    "id": "housing-price-income",
+    "category": "housing",
+    "title": "Housing Price-to-Income Ratio",
+    "subtitle": "Median home price relative to median household income",
+    "commonClaim": "Houses became unaffordable after 1971 because fiat money inflated asset prices.",
+    "actualTrend": "Housing affordability deteriorated in waves — the late 1970s, mid-2000s, and post-2020 — driven by zoning restrictions, population shifts, interest rate changes, and speculation, not just monetary policy.",
+    "dataSource": {
+      "name": "Federal Reserve (FRED), Census Bureau",
+      "url": "https://fred.stlouisfed.org/series/MSPUS",
+      "lastUpdated": "2024-06"
+    },
+    "valueLabel": "Price-to-Income Ratio",
+    "unit": "Ratio",
+    "chartData": [
+      { "year": 1960, "value": 2.2 },
+      { "year": 1963, "value": 2.3 },
+      { "year": 1965, "value": 2.3 },
+      { "year": 1967, "value": 2.4 },
+      { "year": 1970, "value": 2.5 },
+      { "year": 1971, "value": 2.5 },
+      { "year": 1973, "value": 2.7 },
+      { "year": 1975, "value": 2.9 },
+      { "year": 1978, "value": 3.2 },
+      { "year": 1980, "value": 3.4 },
+      { "year": 1982, "value": 3.2 },
+      { "year": 1985, "value": 3.1 },
+      { "year": 1988, "value": 3.3 },
+      { "year": 1990, "value": 3.4 },
+      { "year": 1993, "value": 3.2 },
+      { "year": 1995, "value": 3.1 },
+      { "year": 1998, "value": 3.3 },
+      { "year": 2000, "value": 3.5 },
+      { "year": 2002, "value": 3.7 },
+      { "year": 2004, "value": 4.2 },
+      { "year": 2006, "value": 4.8 },
+      { "year": 2008, "value": 4.2 },
+      { "year": 2010, "value": 3.4 },
+      { "year": 2012, "value": 3.3 },
+      { "year": 2014, "value": 3.6 },
+      { "year": 2016, "value": 3.8 },
+      { "year": 2018, "value": 4.1 },
+      { "year": 2020, "value": 4.4 },
+      { "year": 2022, "value": 5.6 },
+      { "year": 2023, "value": 5.8 }
+    ],
+    "annotations": [
+      { "year": 1971, "label": "Nixon Shock", "description": "Dollar decoupled from gold" },
+      { "year": 1978, "label": "Proposition 13", "description": "California's tax revolt limits property taxes, copied nationally" },
+      { "year": 1997, "label": "Capital gains exclusion", "description": "Taxpayer Relief Act excludes $250K-$500K home sale gains from taxes" },
+      { "year": 2006, "label": "Housing bubble peak", "description": "Subprime lending drives prices to unsustainable levels" },
+      { "year": 2008, "label": "Crash", "description": "Housing market collapses, triggering the Great Recession" },
+      { "year": 2020, "label": "Pandemic boom", "description": "Low rates + remote work + stimulus fuel a historic price surge" }
+    ],
+    "causes": [
+      { "name": "Zoning & land use restrictions", "weight": 30, "description": "Local zoning laws restrict housing supply in high-demand areas, driving up prices. States like California and New York are especially constrained.", "source": "Glaeser & Gyourko (2018)", "sourceUrl": "https://www.nber.org/papers/w8835" },
+      { "name": "Low interest rates & credit expansion", "weight": 25, "description": "Lower mortgage rates increase buying power, but push up prices. The 30-year mortgage itself is a government-backed subsidy to homeowners.", "source": "Federal Reserve", "sourceUrl": "https://fred.stlouisfed.org/series/MORTGAGE30US" },
+      { "name": "Population growth in metro areas", "weight": 20, "description": "Urban population grew from 64% to 83% since 1950. More people competing for constrained housing supply in desirable metro areas.", "source": "Census Bureau", "sourceUrl": "https://www.census.gov/programs-surveys/decennial-census.html" },
+      { "name": "Housing as investment vehicle", "weight": 15, "description": "Tax policy, 1031 exchanges, and cultural attitudes made housing a primary investment, increasing demand beyond shelter needs.", "source": "Joint Center for Housing Studies, Harvard", "sourceUrl": "https://www.jchs.harvard.edu/" },
+      { "name": "Construction cost increases", "weight": 10, "description": "Labor shortages, material costs, and regulatory compliance increased the cost of building new housing.", "source": "National Association of Home Builders", "sourceUrl": "https://www.nahb.org/news-and-economics/housing-economics" }
+    ],
+    "skepticView": {
+      "title": "Housing costs vary wildly by location",
+      "summary": "National averages mask enormous regional variation. Housing in Houston or Raleigh is still affordable; the crisis is concentrated in supply-constrained cities.",
+      "interpretation": "If fiat currency were the main driver, housing would be equally unaffordable everywhere. Instead, the affordability crisis maps almost perfectly to local zoning restrictions. The cities that build enough housing have kept prices reasonable."
+    },
+    "neutralView": {
+      "title": "A supply crisis amplified by cheap credit",
+      "summary": "Housing unaffordability stems primarily from insufficient supply in high-demand areas, amplified by low interest rates, tax incentives, and speculative buying.",
+      "interpretation": "The ratio has risen in waves tied to specific events: late-70s inflation, mid-2000s subprime bubble, post-2020 pandemic boom. Each wave had distinct causes. Monetary policy played a role but zoning restrictions are the structural foundation of the crisis."
+    },
+    "believerView": {
+      "title": "Fiat money inflated housing into an asset class",
+      "summary": "Once money could be created without gold backing, credit expansion made housing a speculative asset rather than shelter, permanently inflating prices relative to wages.",
+      "interpretation": "The steady upward trend since 1971 speaks for itself. Each era of loose monetary policy — the late 70s, post-2001, post-2008 QE, post-2020 — produced a new surge in housing prices. Money creation flows into assets first, wages last."
+    }
+  },
+  {
+    "id": "top-1-percent-income-share",
+    "category": "inequality",
+    "title": "Top 1% Income Share",
+    "subtitle": "Share of total pre-tax income going to the top 1% of earners",
+    "commonClaim": "The rich started getting richer in 1971 when money was divorced from gold.",
+    "actualTrend": "The top 1% income share actually hit its lowest point in the late 1970s, then surged starting in the early 1980s — a decade after the gold standard ended. The timing points to Reagan-era tax cuts, deregulation, and financialization rather than monetary policy.",
+    "dataSource": {
+      "name": "World Inequality Database (Piketty, Saez, Zucman)",
+      "url": "https://wid.world/country/usa/",
+      "lastUpdated": "2024-01"
+    },
+    "valueLabel": "Top 1% Share",
+    "unit": "%",
+    "chartData": [
+      { "year": 1950, "value": 13.0 },
+      { "year": 1953, "value": 11.8 },
+      { "year": 1955, "value": 11.5 },
+      { "year": 1957, "value": 11.2 },
+      { "year": 1960, "value": 10.8 },
+      { "year": 1963, "value": 10.5 },
+      { "year": 1965, "value": 10.6 },
+      { "year": 1967, "value": 10.3 },
+      { "year": 1970, "value": 9.8 },
+      { "year": 1971, "value": 9.5 },
+      { "year": 1973, "value": 9.2 },
+      { "year": 1975, "value": 8.9 },
+      { "year": 1978, "value": 8.5 },
+      { "year": 1980, "value": 10.0 },
+      { "year": 1982, "value": 10.8 },
+      { "year": 1985, "value": 12.5 },
+      { "year": 1988, "value": 15.5 },
+      { "year": 1990, "value": 14.3 },
+      { "year": 1993, "value": 14.0 },
+      { "year": 1995, "value": 15.2 },
+      { "year": 1998, "value": 17.4 },
+      { "year": 2000, "value": 19.8 },
+      { "year": 2002, "value": 16.5 },
+      { "year": 2005, "value": 19.3 },
+      { "year": 2007, "value": 21.5 },
+      { "year": 2009, "value": 17.6 },
+      { "year": 2012, "value": 20.4 },
+      { "year": 2015, "value": 20.2 },
+      { "year": 2018, "value": 20.9 },
+      { "year": 2020, "value": 19.1 },
+      { "year": 2022, "value": 20.5 }
+    ],
+    "annotations": [
+      { "year": 1971, "label": "Nixon Shock", "description": "Dollar decoupled from gold — but inequality FELL for the next 8 years" },
+      { "year": 1981, "label": "Reagan tax cuts", "description": "Top marginal rate cut from 70% to 50%, then to 28% in 1986" },
+      { "year": 1997, "label": "Capital gains cut", "description": "Capital gains tax rate reduced from 28% to 20%" },
+      { "year": 2003, "label": "Bush tax cuts", "description": "Dividends and capital gains taxed at 15%, further benefiting top earners" },
+      { "year": 2008, "label": "Financial crisis", "description": "Brief dip in top income share due to capital losses" },
+      { "year": 2017, "label": "TCJA", "description": "Tax Cuts and Jobs Act reduces corporate rate from 35% to 21%" }
+    ],
+    "causes": [
+      { "name": "Tax policy changes", "weight": 30, "description": "Top marginal rates fell from 91% (1960s) to 37% today. Capital gains preferentially taxed at lower rates. These directly increased after-tax income concentration.", "source": "Tax Policy Center", "sourceUrl": "https://www.taxpolicycenter.org/statistics/historical-highest-marginal-income-tax-rates" },
+      { "name": "Financialization of the economy", "weight": 25, "description": "Finance sector profits grew from 10% to 30% of all corporate profits. Financial assets are concentrated among the wealthy.", "source": "Philippon & Reshef (2012)", "sourceUrl": "https://academic.oup.com/qje/article/127/4/1551/1841372" },
+      { "name": "Winner-take-all markets", "weight": 20, "description": "Technology and globalization created markets where small advantages yield enormous rewards (tech, entertainment, sports, finance).", "source": "Frank & Cook (1995)", "sourceUrl": "https://press.uchicago.edu/ucp/books/book/chicago/W/bo3637553.html" },
+      { "name": "Executive compensation growth", "weight": 15, "description": "CEO-to-worker pay ratio grew from 21:1 in 1965 to 344:1 in 2022, driven by stock options and performance bonuses.", "source": "Economic Policy Institute", "sourceUrl": "https://www.epi.org/publication/ceo-pay-in-2022/" },
+      { "name": "Declining labor power", "weight": 10, "description": "Weaker unions, lower minimum wage (in real terms), and reduced worker protections shifted bargaining power away from labor.", "source": "Farber et al. (2021)", "sourceUrl": "https://www.nber.org/papers/w28160" }
+    ],
+    "skepticView": {
+      "title": "The timing contradicts the gold standard theory",
+      "summary": "Inequality DECREASED from 1971 to 1979. The surge began with 1980s policy changes, a full decade after the gold standard ended.",
+      "interpretation": "This chart actually undermines the wtfhappenedin1971 narrative. If ending the gold standard caused inequality, you'd expect an immediate increase. Instead, the top 1% share hit its all-time LOW in 1978. The real inflection point was the 1980s tax and deregulation revolution."
+    },
+    "neutralView": {
+      "title": "Policy, technology, and markets reshaped income distribution",
+      "summary": "The rise in top income share was driven by tax cuts, financialization, technology, and globalization, with monetary policy playing an indirect supporting role.",
+      "interpretation": "The data shows a clear regime change around 1980, not 1971. Multiple reinforcing factors — lower taxes on high incomes, financial deregulation, stock-based compensation, globalization — all pushed in the same direction. The gold standard ending was one of many institutional changes in this era."
+    },
+    "believerView": {
+      "title": "Fiat money enabled the financialization that enriched the top 1%",
+      "summary": "Without the gold standard constraint, credit creation fueled asset price inflation that disproportionately benefited the already wealthy.",
+      "interpretation": "The gold standard didn't end in a vacuum — it enabled the credit expansion, financial deregulation, and asset price inflation that followed. The 1970s were a transition period; the effects became visible in the 1980s as the financial system fully adapted to fiat money."
+    }
+  }
+]
