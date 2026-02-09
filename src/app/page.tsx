@@ -146,10 +146,10 @@ export default function Home() {
 
               <div className="mt-10 flex gap-8 border-t border-border pt-6 animate-rise-up stagger-5">
                 {[
-                  { value: '29', label: 'Charts' },
-                  { value: '145', label: 'Factors' },
-                  { value: '87', label: 'Perspectives' },
-                  { value: '174', label: 'Sources' },
+                  { value: '28', label: 'Charts' },
+                  { value: '140', label: 'Factors' },
+                  { value: '84', label: 'Perspectives' },
+                  { value: '168', label: 'Sources' },
                 ].map((stat) => (
                   <div key={stat.label}>
                     <div className="font-mono text-xl font-semibold text-text-primary">{stat.value}</div>
