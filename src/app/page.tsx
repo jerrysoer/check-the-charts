@@ -355,10 +355,10 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-4 text-center">
             {[
-              { value: '3', label: 'Interactive Charts', sub: 'and growing' },
-              { value: '15', label: 'Causal Factors', sub: 'analyzed' },
-              { value: '9', label: 'Perspectives', sub: 'skeptic · neutral · believer' },
-              { value: '18', label: 'Verified Sources', sub: 'linked directly' },
+              { value: '14', label: 'Interactive Charts', sub: 'and growing' },
+              { value: '70', label: 'Causal Factors', sub: 'analyzed' },
+              { value: '42', label: 'Perspectives', sub: 'skeptic · neutral · believer' },
+              { value: '61', label: 'Verified Sources', sub: 'linked directly' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-3xl font-extrabold text-text-primary font-mono">

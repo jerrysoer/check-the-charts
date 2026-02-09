@@ -233,5 +233,789 @@
       "summary": "Without the gold standard constraint, credit creation fueled asset price inflation that disproportionately benefited the already wealthy.",
       "interpretation": "The gold standard didn't end in a vacuum — it enabled the credit expansion, financial deregulation, and asset price inflation that followed. The 1970s were a transition period; the effects became visible in the 1980s as the financial system fully adapted to fiat money."
     }
+  },
+  {
+    "id": "us-trade-balance",
+    "category": "trade",
+    "title": "US Trade Balance",
+    "subtitle": "Exports minus imports as percentage of GDP",
+    "commonClaim": "The US went from trade surplus to permanent deficit after abandoning the gold standard in 1971.",
+    "actualTrend": "The trade deficit emerged in the mid-1970s and widened dramatically after 2000. The shift reflects the Triffin dilemma (reserve currency must run deficits), deindustrialization, and globalization — not simply the end of gold convertibility.",
+    "dataSource": {
+      "name": "Federal Reserve (FRED), Bureau of Economic Analysis",
+      "url": "https://fred.stlouisfed.org/series/NETEXP",
+      "lastUpdated": "2024-09"
+    },
+    "valueLabel": "Trade Balance (% of GDP)",
+    "unit": "%",
+    "chartData": [
+      { "year": 1960, "value": 0.7 },
+      { "year": 1963, "value": 0.8 },
+      { "year": 1965, "value": 0.7 },
+      { "year": 1967, "value": 0.4 },
+      { "year": 1969, "value": 0.1 },
+      { "year": 1971, "value": -0.2 },
+      { "year": 1973, "value": 0.1 },
+      { "year": 1975, "value": 0.3 },
+      { "year": 1977, "value": -0.8 },
+      { "year": 1980, "value": -0.5 },
+      { "year": 1983, "value": -1.3 },
+      { "year": 1985, "value": -2.8 },
+      { "year": 1987, "value": -3.0 },
+      { "year": 1990, "value": -1.3 },
+      { "year": 1993, "value": -1.2 },
+      { "year": 1995, "value": -1.2 },
+      { "year": 1998, "value": -2.4 },
+      { "year": 2000, "value": -3.7 },
+      { "year": 2003, "value": -4.5 },
+      { "year": 2006, "value": -5.5 },
+      { "year": 2008, "value": -4.8 },
+      { "year": 2010, "value": -3.4 },
+      { "year": 2013, "value": -2.7 },
+      { "year": 2015, "value": -2.6 },
+      { "year": 2018, "value": -2.8 },
+      { "year": 2020, "value": -3.1 },
+      { "year": 2022, "value": -3.7 },
+      { "year": 2023, "value": -3.0 }
+    ],
+    "annotations": [
+      { "year": 1971, "label": "Nixon Shock", "description": "Dollar decoupled from gold, exchange rates begin floating" },
+      { "year": 1985, "label": "Plaza Accord", "description": "G5 nations agree to weaken the dollar to reduce US trade deficit" },
+      { "year": 1994, "label": "NAFTA", "description": "North American Free Trade Agreement takes effect" },
+      { "year": 2001, "label": "China joins WTO", "description": "China's WTO accession accelerates manufacturing offshoring" },
+      { "year": 2006, "label": "Peak deficit", "description": "Trade deficit reaches -5.5% of GDP, the widest in US history" }
+    ],
+    "causes": [
+      { "name": "Triffin dilemma (reserve currency)", "weight": 30, "description": "As the world's reserve currency, the US must supply dollars globally, which requires running trade deficits. This is structural, not a policy failure.", "source": "St. Louis Federal Reserve", "sourceUrl": "https://www.stlouisfed.org/publications/regional-economist/third-quarter-2018/understanding-roots-trade-deficit" },
+      { "name": "Globalization & offshoring", "weight": 25, "description": "US manufacturing shifted to lower-cost countries, especially China after its WTO accession in 2001. The 'China shock' alone eliminated 2-2.4 million US jobs.", "source": "Autor, Dorn & Hanson (2013)", "sourceUrl": "https://economics.mit.edu/research/publications/china-syndrome-local-labor-market-effects-import-competition" },
+      { "name": "Strong dollar attracting imports", "weight": 20, "description": "Foreign demand for US assets (bonds, stocks) keeps the dollar strong, making imports cheap and exports expensive.", "source": "Federal Reserve", "sourceUrl": "https://fred.stlouisfed.org/series/DTWEXBGS" },
+      { "name": "Shift to service economy", "weight": 15, "description": "The US comparative advantage shifted from manufacturing to services (tech, finance, entertainment), which are harder to export.", "source": "Bureau of Economic Analysis", "sourceUrl": "https://www.bea.gov/data/intl-trade-investment/international-trade-goods-and-services" },
+      { "name": "Energy imports (declining)", "weight": 10, "description": "Oil imports were a major component of the deficit for decades, though US shale production has reduced this significantly since 2010.", "source": "EIA", "sourceUrl": "https://www.eia.gov/energyexplained/oil-and-petroleum-products/imports-and-exports.php" }
+    ],
+    "skepticView": {
+      "title": "Trade deficits reflect strength, not weakness",
+      "summary": "The US runs deficits because it's the world's most attractive destination for investment. Capital surpluses (inflows) are the mirror image of trade deficits.",
+      "interpretation": "Every dollar of trade deficit is matched by a dollar of foreign investment flowing into the US. The deficit means the world wants to invest here. Countries with trade surpluses (Japan since 1990, Germany) haven't necessarily had better economic outcomes for their citizens."
+    },
+    "neutralView": {
+      "title": "Structural forces, not just monetary policy, drove the shift",
+      "summary": "The trade deficit reflects the Triffin dilemma, globalization, deindustrialization, and the shift to a service economy.",
+      "interpretation": "This is one of the stronger charts for the 1971 thesis — the timing is real. But the causes are multifactorial: reserve currency status, NAFTA, China's WTO entry, and comparative advantage shifts all played major roles. Other fiat-currency nations (Japan, Germany) run persistent surpluses, proving fiat money doesn't inherently cause deficits."
+    },
+    "believerView": {
+      "title": "Fiat money broke the trade balance mechanism",
+      "summary": "Under the gold standard, trade deficits were self-correcting: gold outflows contracted the money supply and corrected imbalances. Fiat money removed this discipline.",
+      "interpretation": "The gold standard enforced balance of payments discipline. Without it, the US could import indefinitely by printing money. The structural deficit is a direct consequence of having a fiat reserve currency that the world must hold."
+    }
+  },
+  {
+    "id": "federal-debt-to-gdp",
+    "category": "trade",
+    "title": "Federal Debt-to-GDP Ratio",
+    "subtitle": "Federal debt held by the public as percentage of GDP",
+    "commonClaim": "Government debt exploded after 1971 because there was no gold constraint on spending.",
+    "actualTrend": "Debt-to-GDP actually FELL from 1945 to 1981, reaching a post-war low of ~25%. It then rose due to specific fiscal policy choices: Reagan-era tax cuts, war spending, recession responses, and COVID relief. The gold standard didn't prevent massive WWII debt.",
+    "dataSource": {
+      "name": "Federal Reserve (FRED), Treasury Department",
+      "url": "https://fred.stlouisfed.org/series/FYGFDPUN",
+      "lastUpdated": "2024-09"
+    },
+    "valueLabel": "Debt-to-GDP",
+    "unit": "%",
+    "chartData": [
+      { "year": 1945, "value": 106.0 },
+      { "year": 1950, "value": 80.0 },
+      { "year": 1955, "value": 57.0 },
+      { "year": 1960, "value": 45.0 },
+      { "year": 1965, "value": 37.0 },
+      { "year": 1970, "value": 28.0 },
+      { "year": 1971, "value": 27.0 },
+      { "year": 1975, "value": 25.0 },
+      { "year": 1978, "value": 24.0 },
+      { "year": 1980, "value": 26.0 },
+      { "year": 1983, "value": 33.0 },
+      { "year": 1985, "value": 36.0 },
+      { "year": 1988, "value": 41.0 },
+      { "year": 1990, "value": 42.0 },
+      { "year": 1993, "value": 49.0 },
+      { "year": 1995, "value": 49.0 },
+      { "year": 1998, "value": 43.0 },
+      { "year": 2000, "value": 35.0 },
+      { "year": 2003, "value": 36.0 },
+      { "year": 2005, "value": 37.0 },
+      { "year": 2008, "value": 40.0 },
+      { "year": 2010, "value": 62.0 },
+      { "year": 2013, "value": 73.0 },
+      { "year": 2015, "value": 74.0 },
+      { "year": 2018, "value": 78.0 },
+      { "year": 2020, "value": 100.0 },
+      { "year": 2022, "value": 97.0 },
+      { "year": 2023, "value": 98.0 }
+    ],
+    "annotations": [
+      { "year": 1945, "label": "WWII peak", "description": "Debt hit 106% of GDP under the gold standard" },
+      { "year": 1971, "label": "Nixon Shock", "description": "Gold standard ends — but debt was at a post-war LOW" },
+      { "year": 1981, "label": "Reagan tax cuts", "description": "Revenue falls while military spending rises — deficits begin" },
+      { "year": 2000, "label": "Clinton surplus", "description": "Budget surpluses reduce debt ratio to 35% — under fiat money" },
+      { "year": 2008, "label": "Financial crisis", "description": "Bank bailouts and stimulus add trillions to the debt" },
+      { "year": 2020, "label": "COVID response", "description": "Pandemic spending pushes debt back to WWII levels" }
+    ],
+    "causes": [
+      { "name": "Tax cuts without spending cuts", "weight": 30, "description": "The 1981, 2001, 2003, and 2017 tax cuts reduced revenue without commensurate spending reductions, creating structural deficits.", "source": "Congressional Budget Office", "sourceUrl": "https://www.cbo.gov/publication/58353" },
+      { "name": "War spending", "weight": 20, "description": "The wars in Afghanistan and Iraq cost an estimated $8 trillion including veterans' care and interest, adding significantly to the debt.", "source": "Watson Institute, Brown University", "sourceUrl": "https://watson.brown.edu/costsofwar/" },
+      { "name": "Recession responses", "weight": 20, "description": "Automatic stabilizers (unemployment, reduced tax revenue) and stimulus packages during recessions (2008, 2020) drive debt higher.", "source": "Federal Reserve", "sourceUrl": "https://fred.stlouisfed.org/series/FYFSD" },
+      { "name": "Healthcare cost growth", "weight": 20, "description": "Medicare and Medicaid costs have grown faster than GDP for decades, driven by an aging population and rising medical costs.", "source": "CMS", "sourceUrl": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data" },
+      { "name": "Interest on existing debt", "weight": 10, "description": "Interest payments now exceed $1 trillion annually, creating a compounding effect where debt begets more debt.", "source": "Treasury Department", "sourceUrl": "https://fiscaldata.treasury.gov/datasets/monthly-treasury-statement/summary-of-receipts-outlays-and-the-deficit-surplus-of-the-u-s-government" }
+    ],
+    "skepticView": {
+      "title": "The chart contradicts the 1971 narrative",
+      "summary": "Debt-to-GDP was falling through the 1970s and hit its post-war LOW around 1981. The rise correlates with Reagan-era tax cuts, not the end of the gold standard.",
+      "interpretation": "This is devastating for the gold standard theory. If removing the gold constraint caused debt to explode, why did debt fall for a decade after 1971? And why did the gold standard not prevent the US from accumulating 106% debt-to-GDP during WWII? The data shows fiscal policy choices, not monetary system structure, drive debt levels."
+    },
+    "neutralView": {
+      "title": "Fiscal policy choices, not monetary structure, drive debt",
+      "summary": "Debt growth correlates with specific decisions: tax cuts, wars, recession spending, and healthcare costs. The gold standard removal made deficit spending easier but didn't cause it.",
+      "interpretation": "The fiat system did remove one constraint on borrowing — governments no longer needed gold reserves to back currency. But the Clinton administration achieved surpluses under fiat money, proving the system doesn't mandate deficits. Each debt increase traces to identifiable policy decisions."
+    },
+    "believerView": {
+      "title": "Removing gold discipline enabled permanent deficits",
+      "summary": "Without the gold standard forcing fiscal discipline, politicians could deficit-spend without immediate consequences, leading to ever-growing debt.",
+      "interpretation": "The gold standard was a constraint on government. Once removed, the temptation to spend beyond means became irresistible. Even if the timing wasn't instant, the removal of discipline made the current debt trajectory possible. The post-2008 explosion of debt would have been impossible under gold convertibility."
+    }
+  },
+  {
+    "id": "incarceration-rate",
+    "category": "politics",
+    "title": "US Incarceration Rate",
+    "subtitle": "State and federal prisoners per 100,000 population",
+    "commonClaim": "Incarceration exploded after 1971 as economic conditions deteriorated.",
+    "actualTrend": "The incarceration rate was stable from the 1920s to early 1970s, then quadrupled from 1973 to 2009. The cause was not economic distress but the War on Drugs (declared by Nixon in 1971), mandatory minimum sentencing, and the 1994 crime bill.",
+    "dataSource": {
+      "name": "Bureau of Justice Statistics, The Sentencing Project",
+      "url": "https://www.sentencingproject.org/research/",
+      "lastUpdated": "2024-01"
+    },
+    "valueLabel": "Prisoners per 100K",
+    "unit": "per 100K",
+    "chartData": [
+      { "year": 1925, "value": 79 },
+      { "year": 1930, "value": 104 },
+      { "year": 1935, "value": 113 },
+      { "year": 1940, "value": 131 },
+      { "year": 1945, "value": 98 },
+      { "year": 1950, "value": 109 },
+      { "year": 1955, "value": 112 },
+      { "year": 1960, "value": 117 },
+      { "year": 1965, "value": 108 },
+      { "year": 1970, "value": 96 },
+      { "year": 1975, "value": 111 },
+      { "year": 1980, "value": 139 },
+      { "year": 1985, "value": 200 },
+      { "year": 1990, "value": 297 },
+      { "year": 1995, "value": 411 },
+      { "year": 2000, "value": 478 },
+      { "year": 2005, "value": 491 },
+      { "year": 2008, "value": 506 },
+      { "year": 2010, "value": 500 },
+      { "year": 2015, "value": 458 },
+      { "year": 2018, "value": 431 },
+      { "year": 2020, "value": 358 },
+      { "year": 2022, "value": 380 }
+    ],
+    "annotations": [
+      { "year": 1971, "label": "War on Drugs declared", "description": "Nixon declares drug abuse 'public enemy number one'" },
+      { "year": 1973, "label": "Rockefeller Drug Laws", "description": "New York passes extreme mandatory minimums for drug offenses" },
+      { "year": 1986, "label": "Anti-Drug Abuse Act", "description": "Creates crack/cocaine sentencing disparity (100:1 ratio)" },
+      { "year": 1994, "label": "Crime Bill", "description": "Violent Crime Control Act funds prison construction, three-strikes laws" },
+      { "year": 2010, "label": "Peak and decline", "description": "Incarceration rate begins declining as reform movements gain traction" }
+    ],
+    "causes": [
+      { "name": "War on Drugs policies", "weight": 35, "description": "Drug offenses account for nearly half of federal prisoners. Harsh penalties for possession (not just trafficking) filled prisons with nonviolent offenders.", "source": "Bureau of Justice Statistics", "sourceUrl": "https://bjs.ojp.gov/library/publications/prisoners-2022-statistical-tables" },
+      { "name": "Mandatory minimum sentencing", "weight": 25, "description": "Mandatory minimums removed judicial discretion, resulting in disproportionately long sentences. The crack-cocaine disparity (100:1 until 2010) was especially devastating.", "source": "United States Sentencing Commission", "sourceUrl": "https://www.ussc.gov/research/research-reports/overview-mandatory-minimum-penalties-federal-criminal-justice-system" },
+      { "name": "Three-strikes laws", "weight": 15, "description": "28 states adopted three-strikes laws mandating life sentences for third felonies, regardless of severity.", "source": "Stanford Law Review", "sourceUrl": "https://review.law.stanford.edu/" },
+      { "name": "Racial disparities in enforcement", "weight": 15, "description": "Black Americans are incarcerated at 5x the rate of whites. Drug use rates are similar across races, but arrest and sentencing rates are not.", "source": "The Sentencing Project", "sourceUrl": "https://www.sentencingproject.org/reports/the-color-of-justice-racial-and-ethnic-disparity-in-state-prisons-the-sentencing-project/" },
+      { "name": "Prison-industrial complex", "weight": 10, "description": "Private prisons, prison labor, and lobbying by corrections unions created financial incentives for incarceration.", "source": "Brennan Center for Justice", "sourceUrl": "https://www.brennancenter.org/our-work/analysis-opinion/history-mass-incarceration" }
+    ],
+    "skepticView": {
+      "title": "This has nothing to do with monetary policy",
+      "summary": "The War on Drugs, mandatory minimums, and three-strikes laws are the documented, unambiguous causes. The timing with 1971 is coincidental — Nixon declared the drug war that same year.",
+      "interpretation": "This chart is perhaps the most misleading inclusion on wtfhappenedin1971.com. Mass incarceration is a criminal justice policy story with clear legislative roots. Other fiat-currency nations (Canada, UK, Germany) don't have remotely similar incarceration rates, proving this is a US policy choice, not a monetary system outcome."
+    },
+    "neutralView": {
+      "title": "Criminal justice policy, not economics, drove mass incarceration",
+      "summary": "The quadrupling of incarceration was caused by the War on Drugs, mandatory minimums, and tough-on-crime legislation — policies with clear legislative histories.",
+      "interpretation": "The 1971 timing is coincidental — Nixon happened to declare the War on Drugs the same year he ended gold convertibility. The incarceration surge came from specific legislation: Rockefeller laws (1973), Anti-Drug Abuse Act (1986), Crime Bill (1994). Economic stress may have contributed to support for tough-on-crime politics, but the direct cause is policy."
+    },
+    "believerView": {
+      "title": "Economic deterioration after 1971 drove crime and incarceration",
+      "summary": "As wages stagnated and inequality grew after 1971, economic desperation increased crime, leading to a political backlash that produced mass incarceration.",
+      "interpretation": "While the direct cause is policy, the question is why those policies were adopted. Economic stress from the 1970s stagflation, deindustrialization, and wage stagnation may have created conditions where crime rose and voters demanded harsh responses. The monetary system shift was an upstream cause."
+    }
+  },
+  {
+    "id": "divorce-rate",
+    "category": "demographics",
+    "title": "US Divorce Rate",
+    "subtitle": "Divorces per 1,000 population",
+    "commonClaim": "Divorce rates surged after 1971 as economic stress destroyed families.",
+    "actualTrend": "Divorce rates rose from the mid-1960s, peaked in 1981, and have declined steadily since. The surge was driven by no-fault divorce laws (starting 1969), women's economic independence, and changing social norms — not monetary policy.",
+    "dataSource": {
+      "name": "CDC National Center for Health Statistics",
+      "url": "https://www.cdc.gov/nchs/nvss/marriage-divorce.htm",
+      "lastUpdated": "2023-12"
+    },
+    "valueLabel": "Divorces per 1,000",
+    "unit": "per 1,000",
+    "chartData": [
+      { "year": 1950, "value": 2.6 },
+      { "year": 1955, "value": 2.3 },
+      { "year": 1960, "value": 2.2 },
+      { "year": 1965, "value": 2.5 },
+      { "year": 1967, "value": 2.6 },
+      { "year": 1969, "value": 3.2 },
+      { "year": 1971, "value": 3.7 },
+      { "year": 1973, "value": 4.3 },
+      { "year": 1975, "value": 4.8 },
+      { "year": 1978, "value": 5.1 },
+      { "year": 1980, "value": 5.2 },
+      { "year": 1981, "value": 5.3 },
+      { "year": 1983, "value": 5.0 },
+      { "year": 1985, "value": 5.0 },
+      { "year": 1988, "value": 4.8 },
+      { "year": 1990, "value": 4.7 },
+      { "year": 1993, "value": 4.6 },
+      { "year": 1995, "value": 4.4 },
+      { "year": 1998, "value": 4.2 },
+      { "year": 2000, "value": 4.0 },
+      { "year": 2005, "value": 3.6 },
+      { "year": 2010, "value": 3.4 },
+      { "year": 2015, "value": 3.1 },
+      { "year": 2018, "value": 2.9 },
+      { "year": 2020, "value": 2.3 },
+      { "year": 2022, "value": 2.5 }
+    ],
+    "annotations": [
+      { "year": 1969, "label": "No-fault divorce begins", "description": "California passes first no-fault divorce law under Governor Reagan" },
+      { "year": 1971, "label": "Nixon Shock", "description": "Gold standard ends — but divorce was already surging" },
+      { "year": 1975, "label": "Most states adopt no-fault", "description": "Majority of states have enacted no-fault divorce legislation" },
+      { "year": 1981, "label": "Peak divorce rate", "description": "Rate peaks at 5.3 per 1,000 as no-fault becomes universal" },
+      { "year": 2020, "label": "COVID dip", "description": "Courts closed and cohabitation delayed divorce filings" }
+    ],
+    "causes": [
+      { "name": "No-fault divorce laws", "weight": 40, "description": "Before 1969, courts could deny divorce without proof of fault (adultery, abuse). No-fault laws made divorce accessible. The surge tracks perfectly with state-by-state adoption.", "source": "Wolfers (2006), American Economic Review", "sourceUrl": "https://www.aeaweb.org/articles?id=10.1257/aer.96.5.1802" },
+      { "name": "Women's economic independence", "weight": 25, "description": "Women's workforce participation rose from 38% (1960) to 58% (1990). Financial independence made leaving unhappy marriages possible.", "source": "Bureau of Labor Statistics", "sourceUrl": "https://www.bls.gov/opub/reports/womens-databook/2021/" },
+      { "name": "Changing social norms", "weight": 20, "description": "The stigma of divorce decreased dramatically during the 1960s-70s counterculture and women's liberation movements.", "source": "Pew Research Center", "sourceUrl": "https://www.pewresearch.org/social-trends/2010/11/18/the-decline-of-marriage-and-rise-of-new-families/" },
+      { "name": "Contraception access", "weight": 10, "description": "The Pill (1960) and Griswold v. Connecticut (1965) gave women reproductive autonomy, fundamentally changing relationship dynamics.", "source": "Goldin & Katz (2002)", "sourceUrl": "https://scholar.harvard.edu/goldin/publications/power-pill-oral-contraceptives-and-womens-career-and-marriage-decisions" },
+      { "name": "Later marriage age", "weight": 5, "description": "The decline since 1981 partly reflects people marrying later and more selectively, leading to more stable marriages.", "source": "Census Bureau", "sourceUrl": "https://www.census.gov/data/tables/time-series/demo/families/marital.html" }
+    ],
+    "skepticView": {
+      "title": "No-fault divorce laws are the obvious explanation",
+      "summary": "The divorce surge began in 1969 (two years before the gold standard ended) and maps precisely to state-by-state adoption of no-fault divorce laws.",
+      "interpretation": "The implication that couples divorced because of 'bitter arguments on the convertibility of the dollar to gold' is absurd. No-fault divorce laws removed legal barriers. Women's economic independence made leaving bad marriages possible. The rate has declined since 1981 despite remaining on fiat money."
+    },
+    "neutralView": {
+      "title": "Legal reform and social change, not monetary policy",
+      "summary": "Divorce rose due to no-fault laws, women's workforce entry, and changing social attitudes. The timing with 1971 is coincidental.",
+      "interpretation": "The divorce rate was already surging by 1969, peaked in 1981, and has declined steadily since. This is a story about women's liberation, legal reform, and cultural change. Economic stress may have contributed marginally, but the documented causes are non-monetary."
+    },
+    "believerView": {
+      "title": "Economic stress from monetary debasement strained families",
+      "summary": "Stagnating wages, inflation, and the need for dual incomes after 1971 created economic pressure that contributed to marital instability.",
+      "interpretation": "While no-fault divorce laws were the proximate cause, the question is why they were adopted and why so many couples used them. Economic stress from 1970s stagflation — itself caused by monetary policy changes — may have increased marital strain and made divorce more common."
+    }
+  },
+  {
+    "id": "personal-savings-rate",
+    "category": "labor",
+    "title": "Personal Savings Rate",
+    "subtitle": "Personal saving as percentage of disposable income",
+    "commonClaim": "Americans stopped saving after 1971 because inflation ate their purchasing power.",
+    "actualTrend": "The savings rate declined from ~12% in the early 1970s to ~3% by 2005, then spiked during COVID. The decline tracks with credit card adoption, financial product availability, consumer culture, and the shift from defined-benefit pensions to 401(k)s.",
+    "dataSource": {
+      "name": "Federal Reserve (FRED), Bureau of Economic Analysis",
+      "url": "https://fred.stlouisfed.org/series/PSAVERT",
+      "lastUpdated": "2024-09"
+    },
+    "valueLabel": "Savings Rate",
+    "unit": "%",
+    "chartData": [
+      { "year": 1960, "value": 8.3 },
+      { "year": 1963, "value": 8.0 },
+      { "year": 1965, "value": 9.3 },
+      { "year": 1967, "value": 10.6 },
+      { "year": 1970, "value": 11.4 },
+      { "year": 1971, "value": 12.0 },
+      { "year": 1973, "value": 12.6 },
+      { "year": 1975, "value": 12.0 },
+      { "year": 1978, "value": 10.4 },
+      { "year": 1980, "value": 11.2 },
+      { "year": 1983, "value": 9.8 },
+      { "year": 1985, "value": 8.2 },
+      { "year": 1988, "value": 7.3 },
+      { "year": 1990, "value": 7.0 },
+      { "year": 1993, "value": 5.8 },
+      { "year": 1995, "value": 5.2 },
+      { "year": 1998, "value": 5.0 },
+      { "year": 2000, "value": 3.5 },
+      { "year": 2003, "value": 3.5 },
+      { "year": 2005, "value": 2.6 },
+      { "year": 2008, "value": 5.8 },
+      { "year": 2010, "value": 5.7 },
+      { "year": 2013, "value": 5.0 },
+      { "year": 2015, "value": 5.9 },
+      { "year": 2018, "value": 6.3 },
+      { "year": 2020, "value": 16.8 },
+      { "year": 2022, "value": 3.4 },
+      { "year": 2023, "value": 4.5 }
+    ],
+    "annotations": [
+      { "year": 1971, "label": "Nixon Shock", "description": "Gold standard ends — savings rate was actually near its PEAK" },
+      { "year": 1978, "label": "401(k) created", "description": "Revenue Act of 1978 creates the 401(k), shifting retirement from pensions to individual savings" },
+      { "year": 1985, "label": "Credit card boom", "description": "Supreme Court ruling in Marquette v. First of Omaha enables nationwide credit card lending" },
+      { "year": 2005, "label": "Pre-crisis low", "description": "Savings rate hits 2.6% as housing wealth effect reduces saving" },
+      { "year": 2020, "label": "COVID spike", "description": "Stimulus checks and lockdowns drive savings rate to 33% (April 2020)" }
+    ],
+    "causes": [
+      { "name": "Credit expansion & consumer finance", "weight": 30, "description": "Credit cards, auto loans, and buy-now-pay-later made consumption possible without saving first. US credit card debt exceeds $1 trillion.", "source": "Federal Reserve Bank of New York", "sourceUrl": "https://www.newyorkfed.org/microeconomics/hhdc" },
+      { "name": "Wealth effect from housing & stocks", "weight": 25, "description": "Rising home values and stock portfolios made Americans feel wealthier, reducing the perceived need to save from income.", "source": "Federal Reserve", "sourceUrl": "https://fred.stlouisfed.org/series/TNWBSHNO" },
+      { "name": "Shift from pensions to 401(k)s", "weight": 20, "description": "Defined-benefit pensions (employer-managed) were replaced by 401(k)s (individual-managed), and many workers don't contribute enough.", "source": "Department of Labor", "sourceUrl": "https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/publications/private-pension-plan-bulletin" },
+      { "name": "Stagnating real wages", "weight": 15, "description": "With real wages flat for many workers, there's less room to save after covering rising costs of housing, healthcare, and education.", "source": "Economic Policy Institute", "sourceUrl": "https://www.epi.org/publication/charting-wage-stagnation/" },
+      { "name": "Consumer culture & marketing", "weight": 10, "description": "Advertising expenditure and consumer culture shifted norms from thrift toward consumption.", "source": "Bureau of Economic Analysis", "sourceUrl": "https://www.bea.gov/data/consumer-spending/main" }
+    ],
+    "skepticView": {
+      "title": "Credit access and consumer finance, not inflation",
+      "summary": "The savings decline tracks with credit card deregulation, mortgage innovation, and consumer finance expansion. Americans didn't stop saving — they started borrowing.",
+      "interpretation": "The savings rate was at its PEAK in 1971-73, contradicting the narrative that the gold standard's end immediately harmed savers. The decline came as financial innovation made consumption easier. Also, home equity and 401(k)s aren't captured in this metric, so actual wealth accumulation is understated."
+    },
+    "neutralView": {
+      "title": "Multiple forces reduced saving — credit, wealth effects, and culture",
+      "summary": "The savings rate decline reflects credit access, perceived wealth from assets, the pension-to-401(k) shift, and stagnating wages — with monetary policy as a contributing factor.",
+      "interpretation": "There's a genuine connection between easy money and the savings decline: low interest rates make saving less rewarding and borrowing cheaper. But the decline was gradual and driven by identifiable non-monetary factors. The COVID savings spike showed Americans can save when conditions warrant it."
+    },
+    "believerView": {
+      "title": "Inflation made saving irrational",
+      "summary": "Under fiat money, inflation erodes the value of savings. Rational actors responded by spending and borrowing rather than saving depreciating dollars.",
+      "interpretation": "When money loses purchasing power every year, saving becomes a losing proposition. The gold standard rewarded savers with stable purchasing power. Fiat money punishes savers and rewards borrowers, fundamentally changing economic behavior and encouraging a debt-driven consumption model."
+    }
+  },
+  {
+    "id": "cumulative-inflation",
+    "category": "prices",
+    "title": "Cumulative Inflation (CPI)",
+    "subtitle": "Consumer Price Index — cumulative price level change (1913=100)",
+    "commonClaim": "Prices were stable under the gold standard, then inflation exploded after 1971.",
+    "actualTrend": "Moderate, predictable inflation (averaging 2-3%) has been a feature of fiat currency systems since the 1980s. The high-volatility inflation of the 1970s was caused by oil shocks, not just monetary policy. Under the gold standard, deflationary spirals caused devastating depressions.",
+    "dataSource": {
+      "name": "Bureau of Labor Statistics, CPI",
+      "url": "https://www.bls.gov/cpi/",
+      "lastUpdated": "2024-09"
+    },
+    "valueLabel": "CPI Level",
+    "unit": "Index (1913=100)",
+    "chartData": [
+      { "year": 1913, "value": 100 },
+      { "year": 1920, "value": 200 },
+      { "year": 1925, "value": 176 },
+      { "year": 1930, "value": 168 },
+      { "year": 1933, "value": 130 },
+      { "year": 1940, "value": 140 },
+      { "year": 1945, "value": 180 },
+      { "year": 1950, "value": 241 },
+      { "year": 1955, "value": 268 },
+      { "year": 1960, "value": 296 },
+      { "year": 1965, "value": 314 },
+      { "year": 1970, "value": 388 },
+      { "year": 1971, "value": 405 },
+      { "year": 1975, "value": 538 },
+      { "year": 1980, "value": 824 },
+      { "year": 1985, "value": 1076 },
+      { "year": 1990, "value": 1307 },
+      { "year": 1995, "value": 1524 },
+      { "year": 2000, "value": 1722 },
+      { "year": 2005, "value": 1953 },
+      { "year": 2010, "value": 2184 },
+      { "year": 2015, "value": 2370 },
+      { "year": 2020, "value": 2590 },
+      { "year": 2023, "value": 3040 }
+    ],
+    "annotations": [
+      { "year": 1920, "label": "Post-WWI inflation", "description": "Prices doubled under the gold standard during WWI" },
+      { "year": 1933, "label": "Great Depression deflation", "description": "Prices fell 25% — deflation under the gold standard was devastating" },
+      { "year": 1971, "label": "Nixon Shock", "description": "Gold standard ends" },
+      { "year": 1980, "label": "Volcker tames inflation", "description": "Fed raises rates to 20% to break the inflation cycle" },
+      { "year": 2022, "label": "Post-COVID inflation", "description": "Supply chain disruption and stimulus cause 9.1% annual inflation" }
+    ],
+    "causes": [
+      { "name": "Cumulative compounding is mathematical certainty", "weight": 30, "description": "Even at the Fed's target of 2%, prices double every 36 years. This chart simply shows that 2% annual inflation compounds over a century — it doesn't show instability.", "source": "Federal Reserve", "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/2percent-target-background.htm" },
+      { "name": "1970s oil shocks (supply-side inflation)", "weight": 25, "description": "The 1973 OPEC embargo and 1979 Iranian Revolution caused oil prices to quadruple, driving the high inflation of the 1970s. This was supply-driven, not purely monetary.", "source": "Federal Reserve History", "sourceUrl": "https://www.federalreservehistory.org/essays/oil-shock-of-1973-74" },
+      { "name": "Fiat money enables monetary expansion", "weight": 20, "description": "Without the gold constraint, central banks can expand the money supply. This enables inflation, but also provides tools to fight recessions.", "source": "Federal Reserve", "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm" },
+      { "name": "Post-1980 inflation targeting", "weight": 15, "description": "Since Volcker, the Fed has maintained inflation near 2%. The 'Great Moderation' (1983-2007) showed fiat money can deliver price stability.", "source": "Federal Reserve Bank of St. Louis", "sourceUrl": "https://fredblog.stlouisfed.org/2020/01/the-great-moderation/" },
+      { "name": "Gold standard had deflation crises", "weight": 10, "description": "The gold standard produced devastating deflationary episodes: 1873-1896 (Long Depression), 1929-1933 (Great Depression). Deflation is arguably worse than moderate inflation.", "source": "Bordo & Schwartz (1999)", "sourceUrl": "https://www.nber.org/papers/w6201" }
+    ],
+    "skepticView": {
+      "title": "This chart just shows that inflation exists",
+      "summary": "Cumulative inflation over 110 years looks dramatic on any chart. At a 2% target rate, this is exactly what you'd expect — and it's preferable to gold-standard deflation.",
+      "interpretation": "The chart is mathematically trivial: compound 2-3% over a century and you get a big number. The gold standard produced price stability on average, but with violent swings: 100% inflation during WWI, then 25% deflation during the Depression. Modern fiat money with inflation targeting has delivered far more predictable prices."
+    },
+    "neutralView": {
+      "title": "Inflation is a feature, not a bug — but it must be managed",
+      "summary": "Moderate inflation is an intentional choice by central banks. The 1970s showed what happens when inflation is mismanaged; the post-1982 era showed it can be tamed.",
+      "interpretation": "The fiat system does produce continuous inflation — that's by design. The key question is rate and predictability. Since 1983, inflation has averaged ~2.5% — stable and predictable. The gold standard's price stability came with devastating deflationary crises and limited crisis-response tools."
+    },
+    "believerView": {
+      "title": "The dollar has lost 98% of its purchasing power since 1913",
+      "summary": "What cost $1 in 1913 costs over $30 today. The gold standard maintained purchasing power; fiat money systematically destroys it.",
+      "interpretation": "The cumulative destruction of purchasing power is undeniable. A gold-denominated dollar held its value over centuries. The fiat dollar loses value every year. This is a hidden tax on savers and workers whose wages don't keep up with rising prices. The acceleration after 1971 is visible in the chart's exponential curve."
+    }
+  },
+  {
+    "id": "gini-coefficient",
+    "category": "inequality",
+    "title": "Gini Coefficient",
+    "subtitle": "Income inequality index (0 = perfect equality, 1 = maximum inequality)",
+    "commonClaim": "Income inequality rose after 1971 due to monetary debasement.",
+    "actualTrend": "The Gini coefficient was roughly stable through the 1970s, then rose starting in the early 1980s — the same pattern as the top 1% income share. The causes are declining unions, globalization, skill-biased technology, and tax policy changes.",
+    "dataSource": {
+      "name": "Census Bureau, Current Population Survey",
+      "url": "https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-inequality.html",
+      "lastUpdated": "2024-09"
+    },
+    "valueLabel": "Gini Index",
+    "unit": "Index",
+    "chartData": [
+      { "year": 1967, "value": 0.397 },
+      { "year": 1970, "value": 0.394 },
+      { "year": 1971, "value": 0.396 },
+      { "year": 1973, "value": 0.397 },
+      { "year": 1975, "value": 0.397 },
+      { "year": 1978, "value": 0.402 },
+      { "year": 1980, "value": 0.403 },
+      { "year": 1983, "value": 0.414 },
+      { "year": 1985, "value": 0.419 },
+      { "year": 1988, "value": 0.427 },
+      { "year": 1990, "value": 0.428 },
+      { "year": 1993, "value": 0.454 },
+      { "year": 1995, "value": 0.450 },
+      { "year": 1998, "value": 0.456 },
+      { "year": 2000, "value": 0.462 },
+      { "year": 2003, "value": 0.464 },
+      { "year": 2005, "value": 0.469 },
+      { "year": 2008, "value": 0.466 },
+      { "year": 2010, "value": 0.470 },
+      { "year": 2013, "value": 0.476 },
+      { "year": 2015, "value": 0.479 },
+      { "year": 2018, "value": 0.486 },
+      { "year": 2020, "value": 0.489 },
+      { "year": 2022, "value": 0.488 }
+    ],
+    "annotations": [
+      { "year": 1971, "label": "Nixon Shock", "description": "Gold standard ends — Gini barely changed for a decade" },
+      { "year": 1981, "label": "Reagan era begins", "description": "Tax cuts and deregulation accelerate inequality" },
+      { "year": 1993, "label": "Census methodology change", "description": "CPS redesign causes a one-time jump in measured inequality" },
+      { "year": 2001, "label": "China joins WTO", "description": "Globalization accelerates, hollowing out middle-class jobs" }
+    ],
+    "causes": [
+      { "name": "Declining union membership", "weight": 25, "description": "Unions compressed wage distributions. Their decline from 35% to 10% membership directly widened income gaps.", "source": "Economic Policy Institute", "sourceUrl": "https://www.epi.org/publication/union-decline-lowers-wages-of-nonunion-workers-the-overlooked-reason-why-wages-are-stuck-and-inequality-is-growing/" },
+      { "name": "Skill-biased technological change", "weight": 25, "description": "Technology increased returns to education and skills, widening the gap between college-educated and non-college workers.", "source": "Goldin & Katz (2008)", "sourceUrl": "https://scholar.harvard.edu/goldin/publications/race-between-education-and-technology" },
+      { "name": "Tax policy changes", "weight": 20, "description": "Progressive taxation was weakened: top rates fell from 70% to 37%, capital gains were preferentially taxed, and estate taxes were reduced.", "source": "Tax Policy Center", "sourceUrl": "https://www.taxpolicycenter.org/statistics/historical-highest-marginal-income-tax-rates" },
+      { "name": "Globalization", "weight": 20, "description": "Trade competition reduced wages for manufacturing workers while increasing returns to capital and high-skilled workers.", "source": "Autor, Dorn & Hanson (2013)", "sourceUrl": "https://economics.mit.edu/research/publications/china-syndrome-local-labor-market-effects-import-competition" },
+      { "name": "Household composition changes", "weight": 10, "description": "More single-parent and single-person households (which earn less) shifted the income distribution even without wage changes.", "source": "Census Bureau", "sourceUrl": "https://www.census.gov/data/tables/time-series/demo/families/households.html" }
+    ],
+    "skepticView": {
+      "title": "The Gini was flat through the 1970s — the timing is wrong",
+      "summary": "Inequality was essentially unchanged from 1967 to 1980. The increase began in the 1980s with Reagan-era policy changes, not 1971.",
+      "interpretation": "Like the top 1% income share, the Gini contradicts the 1971 narrative. If the gold standard's end caused inequality, you'd see an immediate rise. Instead, the Gini was flat for a decade. The inflection came with 1980s deregulation, tax cuts, and globalization."
+    },
+    "neutralView": {
+      "title": "Structural economic changes, not monetary policy, drove inequality",
+      "summary": "Rising inequality reflects declining unions, technological change, globalization, and tax policy — multiple forces that accelerated in the 1980s, not 1971.",
+      "interpretation": "The Gini measures a broad trend driven by labor market structure, education policy, trade, and taxation. Monetary policy affects inequality indirectly (through asset prices and interest rates), but the direct drivers are non-monetary. Other fiat-currency nations (Scandinavia, Japan) have much lower Gini coefficients."
+    },
+    "believerView": {
+      "title": "Fiat money amplified inequality through asset inflation",
+      "summary": "Credit expansion under fiat money inflated asset prices (stocks, housing) that are disproportionately owned by the wealthy, widening the gap.",
+      "interpretation": "While the Gini didn't jump immediately in 1971, the removal of the gold constraint enabled the credit expansion and financialization that followed. The 1980s deregulation was only possible because the monetary system had already been unshackled. Asset inflation is the mechanism through which fiat money increases inequality."
+    }
+  },
+  {
+    "id": "dual-income-households",
+    "category": "wages",
+    "title": "Dual-Income Households",
+    "subtitle": "Percentage of married-couple families with both spouses working",
+    "commonClaim": "Families needed two incomes after 1971 because one wage could no longer support a household.",
+    "actualTrend": "Women's workforce participation surged due to the women's liberation movement, birth control availability, education access, and changing social norms. The trend began before 1971 and represents cultural progress as much as economic pressure.",
+    "dataSource": {
+      "name": "Bureau of Labor Statistics, Current Population Survey",
+      "url": "https://www.bls.gov/cps/tables.htm",
+      "lastUpdated": "2024-06"
+    },
+    "valueLabel": "Dual-Income Rate",
+    "unit": "%",
+    "chartData": [
+      { "year": 1960, "value": 30.5 },
+      { "year": 1963, "value": 33.0 },
+      { "year": 1965, "value": 34.7 },
+      { "year": 1967, "value": 37.8 },
+      { "year": 1970, "value": 40.8 },
+      { "year": 1971, "value": 41.5 },
+      { "year": 1973, "value": 43.0 },
+      { "year": 1975, "value": 44.4 },
+      { "year": 1978, "value": 49.4 },
+      { "year": 1980, "value": 51.0 },
+      { "year": 1983, "value": 53.2 },
+      { "year": 1985, "value": 55.4 },
+      { "year": 1988, "value": 58.0 },
+      { "year": 1990, "value": 59.4 },
+      { "year": 1993, "value": 59.8 },
+      { "year": 1995, "value": 60.7 },
+      { "year": 1998, "value": 61.2 },
+      { "year": 2000, "value": 62.0 },
+      { "year": 2005, "value": 60.8 },
+      { "year": 2010, "value": 58.2 },
+      { "year": 2015, "value": 59.7 },
+      { "year": 2018, "value": 60.4 },
+      { "year": 2020, "value": 57.8 },
+      { "year": 2023, "value": 60.0 }
+    ],
+    "annotations": [
+      { "year": 1960, "label": "The Pill approved", "description": "FDA approves first oral contraceptive, enabling family planning" },
+      { "year": 1964, "label": "Civil Rights Act", "description": "Title VII prohibits employment discrimination based on sex" },
+      { "year": 1971, "label": "Nixon Shock", "description": "Gold standard ends — but women's employment was already rising" },
+      { "year": 1972, "label": "Title IX", "description": "Prohibits sex discrimination in education, expanding women's college access" },
+      { "year": 2000, "label": "Plateau", "description": "Dual-income rate stabilizes around 60%, reflecting choice rather than necessity" }
+    ],
+    "causes": [
+      { "name": "Women's liberation movement", "weight": 30, "description": "The feminist movement transformed social expectations. Women increasingly sought careers as fulfillment, not just economic necessity.", "source": "Goldin (2006), The Quiet Revolution", "sourceUrl": "https://scholar.harvard.edu/goldin/publications/quiet-revolution-transformed-womens-employment-education-and-family" },
+      { "name": "Birth control & reproductive autonomy", "weight": 25, "description": "The Pill (1960), Griswold v. Connecticut (1965), and Roe v. Wade (1973) gave women control over timing of childbirth, enabling career investment.", "source": "Goldin & Katz (2002)", "sourceUrl": "https://scholar.harvard.edu/goldin/publications/power-pill-oral-contraceptives-and-womens-career-and-marriage-decisions" },
+      { "name": "Education access (Title IX)", "weight": 20, "description": "Title IX (1972) opened educational institutions. Women went from 42% to 57% of college students. Education led to career opportunities.", "source": "National Center for Education Statistics", "sourceUrl": "https://nces.ed.gov/programs/digest/d22/tables/dt22_303.10.asp" },
+      { "name": "Economic pressure on single-earner families", "weight": 15, "description": "Rising housing, healthcare, and education costs did make single-income households harder to sustain, particularly after the 1980s.", "source": "Elizabeth Warren, The Two-Income Trap", "sourceUrl": "https://www.basicbooks.com/titles/elizabeth-warren/the-two-income-trap/9780465090907/" },
+      { "name": "Anti-discrimination law & workplace access", "weight": 10, "description": "The Civil Rights Act (1964), Equal Pay Act (1963), and subsequent legislation opened professions previously closed to women.", "source": "EEOC", "sourceUrl": "https://www.eeoc.gov/statutes/equal-pay-act-1963" }
+    ],
+    "skepticView": {
+      "title": "This is a women's rights story, not a monetary policy story",
+      "summary": "The rise of dual-income households began in the 1960s — before 1971 — and tracks with contraception, education access, and legal equality.",
+      "interpretation": "Framing women's workforce entry as a sign of economic distress erases the agency and achievement of the women's movement. The trend began with the Pill (1960), accelerated with the Civil Rights Act (1964) and Title IX (1972). The plateau since 2000 suggests a natural equilibrium, not ongoing desperation."
+    },
+    "neutralView": {
+      "title": "Both opportunity and necessity drove the shift",
+      "summary": "Women entered the workforce due to expanded rights and opportunities, but rising costs also made dual incomes increasingly important.",
+      "interpretation": "The truth includes both narratives. Women's liberation was the primary driver — the trend started well before 1971. But economic pressure became a contributing factor, especially as housing and education costs rose. Elizabeth Warren's 'Two-Income Trap' argues that dual incomes actually increased competition for housing and schools, paradoxically making families more vulnerable."
+    },
+    "believerView": {
+      "title": "Inflation forced families to need two incomes",
+      "summary": "As real wages stagnated after 1971, families needed a second income to maintain the standard of living previously achievable on one salary.",
+      "interpretation": "The timing fits: one income supported a family through the 1950s-60s. After 1971, inflation and wage stagnation made single-earner households increasingly unviable. Women's entry into the workforce was partly driven by economic necessity, not just choice. The cultural factors were real but the economic push was decisive."
+    }
+  },
+  {
+    "id": "labor-share-of-gdp",
+    "category": "inequality",
+    "title": "Labor Share of National Income",
+    "subtitle": "Compensation of employees as percentage of gross domestic income",
+    "commonClaim": "Workers' share of the economic pie fell after 1971 as capital owners benefited from monetary expansion.",
+    "actualTrend": "Labor's share was relatively stable at ~64% from 1947 through 2000, then fell sharply to ~57% after 2000. The timing points to the 'China shock,' automation, and corporate concentration — not the 1971 gold standard change.",
+    "dataSource": {
+      "name": "Federal Reserve (FRED), Bureau of Labor Statistics",
+      "url": "https://fred.stlouisfed.org/series/LABSHPUSA156NRUG",
+      "lastUpdated": "2024-06"
+    },
+    "valueLabel": "Labor Share",
+    "unit": "%",
+    "chartData": [
+      { "year": 1950, "value": 64.5 },
+      { "year": 1955, "value": 64.8 },
+      { "year": 1960, "value": 65.0 },
+      { "year": 1965, "value": 64.2 },
+      { "year": 1970, "value": 65.2 },
+      { "year": 1971, "value": 64.8 },
+      { "year": 1975, "value": 64.5 },
+      { "year": 1978, "value": 64.0 },
+      { "year": 1980, "value": 64.7 },
+      { "year": 1985, "value": 63.5 },
+      { "year": 1990, "value": 63.8 },
+      { "year": 1995, "value": 63.2 },
+      { "year": 2000, "value": 64.1 },
+      { "year": 2003, "value": 62.8 },
+      { "year": 2005, "value": 61.5 },
+      { "year": 2008, "value": 62.0 },
+      { "year": 2010, "value": 60.2 },
+      { "year": 2013, "value": 59.3 },
+      { "year": 2015, "value": 59.8 },
+      { "year": 2018, "value": 59.5 },
+      { "year": 2020, "value": 60.8 },
+      { "year": 2022, "value": 58.5 },
+      { "year": 2023, "value": 57.8 }
+    ],
+    "annotations": [
+      { "year": 1971, "label": "Nixon Shock", "description": "Gold standard ends — but labor share was stable for 30 more years" },
+      { "year": 2001, "label": "China joins WTO", "description": "Globalization accelerates, labor share begins steep decline" },
+      { "year": 2008, "label": "Financial crisis", "description": "Corporate profits recover faster than wages after the recession" },
+      { "year": 2020, "label": "COVID", "description": "Brief spike as government transfers boosted labor income" }
+    ],
+    "causes": [
+      { "name": "Globalization (especially post-2001)", "weight": 30, "description": "China's WTO accession in 2001 accelerated offshoring of manufacturing. The labor share decline maps almost perfectly to the China shock timeline.", "source": "Elsby, Hobijn & Sahin (2013)", "sourceUrl": "https://www.brookings.edu/articles/the-decline-of-the-us-labor-share/" },
+      { "name": "Automation & AI", "weight": 25, "description": "Capital-intensive production (robots, software, AI) substitutes for labor, allowing output to grow without proportional wage increases.", "source": "Acemoglu & Restrepo (2020)", "sourceUrl": "https://economics.mit.edu/research/publications/robots-and-jobs-evidence-us-labor-markets" },
+      { "name": "Corporate market concentration", "weight": 20, "description": "Industry consolidation created 'superstar firms' (tech, pharma) with high profits and relatively few employees, pulling the average labor share down.", "source": "Autor et al. (2020)", "sourceUrl": "https://economics.mit.edu/research/publications/fall-labor-share-and-rise-superstar-firms" },
+      { "name": "Declining worker bargaining power", "weight": 15, "description": "Weaker unions, right-to-work laws, and labor market deregulation reduced workers' ability to claim a share of productivity gains.", "source": "Economic Policy Institute", "sourceUrl": "https://www.epi.org/publication/union-decline-lowers-wages-of-nonunion-workers-the-overlooked-reason-why-wages-are-stuck-and-inequality-is-growing/" },
+      { "name": "Rising depreciation costs", "weight": 10, "description": "As the economy shifted to capital-intensive tech, depreciation of equipment and IP grew, mechanically reducing the measured labor share.", "source": "Karabarbounis & Neiman (2014)", "sourceUrl": "https://academic.oup.com/qje/article/129/1/61/1899422" }
+    ],
+    "skepticView": {
+      "title": "Labor share was stable for 30 years after 1971",
+      "summary": "The decline began around 2000, not 1971. It correlates with China's WTO entry and the rise of superstar tech firms, not the gold standard.",
+      "interpretation": "This chart strongly contradicts the 1971 thesis. Labor share was remarkably stable from 1947 to 2000 — spanning both the gold standard and fiat eras. The sharp decline after 2000 points to globalization and technology, not monetary policy."
+    },
+    "neutralView": {
+      "title": "Globalization, technology, and market power reshaped income distribution",
+      "summary": "The labor share decline is a post-2000 phenomenon driven by trade competition, automation, and corporate concentration.",
+      "interpretation": "This is one of the most important economic trends of the 21st century, but its timing exonerates monetary policy. The causes are structural: industries that can offshore or automate have seen their labor shares fall, while 'superstar firms' with high profits and few workers have pulled the aggregate down."
+    },
+    "believerView": {
+      "title": "Fiat money enabled the capital accumulation that displaced labor",
+      "summary": "Easy credit and asset inflation under fiat money enabled the massive capital investment (tech, automation) that substituted for labor.",
+      "interpretation": "While the decline accelerated after 2000, the conditions were set by decades of fiat-money-enabled capital accumulation. Cheap credit funded the tech investments and corporate acquisitions that ultimately displaced workers. The gold standard would have constrained the capital accumulation that enabled this shift."
+    }
+  },
+  {
+    "id": "political-polarization",
+    "category": "politics",
+    "title": "Congressional Polarization",
+    "subtitle": "Ideological distance between parties in Congress (DW-NOMINATE scores)",
+    "commonClaim": "Political polarization accelerated after 1971 as economic stress divided the country.",
+    "actualTrend": "Polarization began increasing in the late 1970s and accelerated through the 1990s-2010s. The causes are the Southern Strategy, civil rights realignment, media fragmentation, gerrymandering, and campaign finance — not monetary policy.",
+    "dataSource": {
+      "name": "Voteview.com (DW-NOMINATE), UCLA/Georgia)",
+      "url": "https://voteview.com/articles/party_polarization",
+      "lastUpdated": "2024-01"
+    },
+    "valueLabel": "Polarization Index",
+    "unit": "DW-NOMINATE distance",
+    "chartData": [
+      { "year": 1950, "value": 0.57 },
+      { "year": 1955, "value": 0.52 },
+      { "year": 1960, "value": 0.50 },
+      { "year": 1965, "value": 0.49 },
+      { "year": 1968, "value": 0.52 },
+      { "year": 1971, "value": 0.54 },
+      { "year": 1975, "value": 0.58 },
+      { "year": 1978, "value": 0.60 },
+      { "year": 1980, "value": 0.63 },
+      { "year": 1983, "value": 0.67 },
+      { "year": 1985, "value": 0.70 },
+      { "year": 1988, "value": 0.73 },
+      { "year": 1990, "value": 0.76 },
+      { "year": 1993, "value": 0.80 },
+      { "year": 1995, "value": 0.86 },
+      { "year": 1998, "value": 0.88 },
+      { "year": 2000, "value": 0.88 },
+      { "year": 2003, "value": 0.91 },
+      { "year": 2005, "value": 0.92 },
+      { "year": 2008, "value": 0.93 },
+      { "year": 2010, "value": 0.96 },
+      { "year": 2013, "value": 1.01 },
+      { "year": 2015, "value": 1.03 },
+      { "year": 2018, "value": 1.05 },
+      { "year": 2020, "value": 1.06 },
+      { "year": 2023, "value": 1.07 }
+    ],
+    "annotations": [
+      { "year": 1965, "label": "Polarization low point", "description": "Bipartisan consensus era with ~160 moderate members of Congress" },
+      { "year": 1971, "label": "Nixon Shock", "description": "Gold standard ends — but polarization had already begun increasing" },
+      { "year": 1994, "label": "Gingrich Revolution", "description": "Republicans take House, Gingrich pioneers confrontational politics" },
+      { "year": 2008, "label": "Tea Party era", "description": "Financial crisis fuels populist backlash and hardline politics" },
+      { "year": 2016, "label": "Trump era", "description": "Polarization reaches levels not seen since Reconstruction" }
+    ],
+    "causes": [
+      { "name": "Southern Strategy & party realignment", "weight": 30, "description": "Conservative Southern Democrats migrated to the Republican Party after the Civil Rights Act (1964), sorting the parties ideologically.", "source": "Pew Research Center", "sourceUrl": "https://www.pewresearch.org/short-reads/2022/03/10/the-polarization-in-todays-congress-has-roots-that-go-back-decades/" },
+      { "name": "Media fragmentation", "weight": 25, "description": "The end of the Fairness Doctrine (1987), rise of talk radio, cable news, and social media created partisan information ecosystems.", "source": "Pew Research Center", "sourceUrl": "https://www.pewresearch.org/journalism/2014/10/21/political-polarization-media-habits/" },
+      { "name": "Gerrymandering", "weight": 20, "description": "Partisan redistricting created 'safe' seats where the real contest is the primary, incentivizing extremism over moderation.", "source": "Brennan Center for Justice", "sourceUrl": "https://www.brennancenter.org/our-work/research-reports/extreme-maps" },
+      { "name": "Campaign finance changes", "weight": 15, "description": "Citizens United (2010) and the rise of PACs enabled wealthy donors to fund ideologically extreme candidates.", "source": "OpenSecrets", "sourceUrl": "https://www.opensecrets.org/" },
+      { "name": "Declining civic institutions", "weight": 10, "description": "The decline of churches, unions, civic clubs, and local organizations reduced cross-partisan social contact.", "source": "Putnam (2000), Bowling Alone", "sourceUrl": "https://bowlingalone.com/" }
+    ],
+    "skepticView": {
+      "title": "This is a political science story, not an economics story",
+      "summary": "Polarization maps to specific political events: civil rights realignment, Gingrich revolution, media fragmentation. Monetary policy has nothing to do with it.",
+      "interpretation": "Polarization was at its LOW in 1965, rose slightly through the 1970s, then accelerated in the 1990s. The drivers are well-documented: party sorting after the Civil Rights Act, the Fairness Doctrine repeal, gerrymandering, and social media. Other fiat-currency democracies (Canada, Germany) are far less polarized."
+    },
+    "neutralView": {
+      "title": "Political structural changes, with economic stress as a contributing factor",
+      "summary": "Polarization is primarily driven by party realignment, media changes, and institutional incentives, with economic inequality providing fertile ground.",
+      "interpretation": "Economic anxiety can fuel political extremism, and rising inequality may have contributed to polarization. But the causal chain runs through specific political mechanisms (gerrymandering, media, campaign finance), not monetary policy. Countries with similar fiat systems but different political structures show different polarization patterns."
+    },
+    "believerView": {
+      "title": "Economic deterioration after 1971 fueled political division",
+      "summary": "Stagnating wages, rising inequality, and declining living standards created the economic anxiety that politicians exploited for partisan gain.",
+      "interpretation": "While the direct causes of polarization are political, the underlying conditions were economic. The middle class was hollowed out after 1971 — real wages stagnated, inequality rose, and economic mobility declined. This created the anger and frustration that demagogues channeled into partisan warfare."
+    }
+  },
+  {
+    "id": "fertility-rate",
+    "category": "demographics",
+    "title": "Total Fertility Rate",
+    "subtitle": "Average number of children per woman",
+    "commonClaim": "Birth rates collapsed after 1971 as economic conditions made raising children unaffordable.",
+    "actualTrend": "The fertility rate dropped from 3.6 to 1.8 between 1960 and 1976 — the decline began a full decade before 1971. The primary drivers were the birth control pill (1960), women's education and career access, and changing social norms.",
+    "dataSource": {
+      "name": "CDC National Center for Health Statistics, World Bank",
+      "url": "https://data.worldbank.org/indicator/SP.DYN.TFRT.IN?locations=US",
+      "lastUpdated": "2024-01"
+    },
+    "valueLabel": "Children per Woman",
+    "unit": "TFR",
+    "chartData": [
+      { "year": 1950, "value": 3.03 },
+      { "year": 1955, "value": 3.50 },
+      { "year": 1957, "value": 3.67 },
+      { "year": 1960, "value": 3.65 },
+      { "year": 1963, "value": 3.33 },
+      { "year": 1965, "value": 2.91 },
+      { "year": 1967, "value": 2.56 },
+      { "year": 1970, "value": 2.48 },
+      { "year": 1971, "value": 2.27 },
+      { "year": 1973, "value": 1.88 },
+      { "year": 1976, "value": 1.74 },
+      { "year": 1980, "value": 1.84 },
+      { "year": 1985, "value": 1.84 },
+      { "year": 1990, "value": 2.08 },
+      { "year": 1995, "value": 2.02 },
+      { "year": 2000, "value": 2.06 },
+      { "year": 2005, "value": 2.05 },
+      { "year": 2007, "value": 2.12 },
+      { "year": 2010, "value": 1.93 },
+      { "year": 2013, "value": 1.86 },
+      { "year": 2015, "value": 1.84 },
+      { "year": 2018, "value": 1.73 },
+      { "year": 2020, "value": 1.64 },
+      { "year": 2023, "value": 1.62 }
+    ],
+    "annotations": [
+      { "year": 1957, "label": "Baby boom peak", "description": "Fertility peaks at 3.67 children per woman" },
+      { "year": 1960, "label": "The Pill approved", "description": "FDA approves oral contraceptives — fertility immediately drops" },
+      { "year": 1965, "label": "Griswold v. Connecticut", "description": "Supreme Court legalizes contraception for married couples" },
+      { "year": 1971, "label": "Nixon Shock", "description": "Gold standard ends — but fertility had already plunged from 3.65 to 2.27" },
+      { "year": 1973, "label": "Roe v. Wade", "description": "Supreme Court legalizes abortion nationwide" },
+      { "year": 2007, "label": "Pre-recession peak", "description": "Fertility briefly rises to 2.12 before declining again" }
+    ],
+    "causes": [
+      { "name": "Birth control pill (1960)", "weight": 35, "description": "The Pill gave women reliable control over reproduction for the first time. Fertility dropped 38% within 5 years of the Pill's approval.", "source": "Goldin & Katz (2002)", "sourceUrl": "https://scholar.harvard.edu/goldin/publications/power-pill-oral-contraceptives-and-womens-career-and-marriage-decisions" },
+      { "name": "Women's education & career access", "weight": 25, "description": "Women's college enrollment surged after Title IX (1972). Higher education delays childbearing and reduces completed family size.", "source": "National Center for Education Statistics", "sourceUrl": "https://nces.ed.gov/programs/digest/d22/tables/dt22_303.10.asp" },
+      { "name": "Changing social norms", "weight": 15, "description": "Cultural expectations shifted from early marriage and large families to individual fulfillment, career achievement, and smaller families.", "source": "Pew Research Center", "sourceUrl": "https://www.pewresearch.org/social-trends/2021/11/18/the-demographics-of-multigenerational-households/" },
+      { "name": "Rising child-rearing costs", "weight": 15, "description": "The cost of raising a child rose to ~$310,000 (2023 dollars). Housing, childcare, education, and healthcare costs made large families expensive.", "source": "USDA, Brookings Institution", "sourceUrl": "https://www.brookings.edu/articles/the-cost-of-raising-a-child/" },
+      { "name": "Legal access to abortion", "weight": 10, "description": "Roe v. Wade (1973) provided a legal option for unplanned pregnancies, contributing to lower birth rates.", "source": "Guttmacher Institute", "sourceUrl": "https://www.guttmacher.org/fact-sheet/induced-abortion-united-states" }
+    ],
+    "skepticView": {
+      "title": "The decline started in 1960, not 1971",
+      "summary": "Fertility dropped from 3.65 to 2.27 between 1960 and 1971 — the largest decline happened BEFORE the gold standard ended. The Pill is the obvious cause.",
+      "interpretation": "This chart is one of the weakest on wtfhappenedin1971.com. The fertility decline began with the Pill's FDA approval in 1960 and accelerated through the 1960s. By 1971, the decline was nearly complete. The gold standard is irrelevant — this is a demographic transition driven by reproductive technology and women's rights."
+    },
+    "neutralView": {
+      "title": "Reproductive technology and social change, not monetary policy",
+      "summary": "The fertility decline is a global phenomenon occurring across all monetary systems, driven by contraception, education, and urbanization.",
+      "interpretation": "Every developed country has experienced this transition — the 'demographic transition' is one of the most studied phenomena in social science. Countries with gold-backed currencies, fiat currencies, and everything in between all show declining fertility as women gain education and reproductive autonomy."
+    },
+    "believerView": {
+      "title": "Economic insecurity made families unaffordable",
+      "summary": "While contraception enabled the decline, economic factors — stagnating wages, housing costs, student debt — made young people unable or unwilling to have children.",
+      "interpretation": "The post-2007 decline is harder to explain with reproductive technology alone. Young adults increasingly cite economic reasons for delaying or forgoing children: housing costs, student debt, childcare expenses, job instability. The economic deterioration that began after 1971 created conditions where family formation became financially prohibitive."
+    }
   }
 ]
