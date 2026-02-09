@@ -19,7 +19,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-2 text-text-primary">
           <BarChart3 className="h-6 w-6 text-accent-blue" />
           <span className="text-lg font-bold tracking-tight">
-            WTF Happened<span className="text-accent-blue">?</span>
+            Check the Charts
           </span>
         </Link>
 

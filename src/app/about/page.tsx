@@ -10,7 +10,7 @@ export default function AboutPage() {
 
       <div className="mt-8 space-y-6 text-sm leading-relaxed text-text-secondary">
         <p>
-          <strong className="text-text-primary">WTF Happened?</strong> is an educational web app that
+          <strong className="text-text-primary">Check the Charts</strong> is an educational web app that
           teaches critical thinking about economic data through interactive exploration of trends
           since 1971.
         </p>

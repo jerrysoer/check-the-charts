@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="flex items-center gap-2 text-text-secondary">
             <BarChart3 className="h-5 w-5 text-accent-blue" />
             <span className="text-sm font-medium">
-              WTF Happened<span className="text-accent-blue">?</span>
+              Check the Charts
             </span>
             <span className="text-sm">— A Data Literacy Project</span>
           </div>

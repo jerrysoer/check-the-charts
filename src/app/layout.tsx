@@ -15,19 +15,19 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "WTF Happened? — Data Literacy Project",
+  title: "Check the Charts — Data Literacy Project",
   description:
     "An educational web app that teaches critical thinking about economic data through interactive exploration of trends since 1971.",
   openGraph: {
-    title: "WTF Happened? — Data Literacy Project",
+    title: "Check the Charts — Data Literacy Project",
     description:
       "Interactive economic charts with multi-causal analysis. Turn viral chart propaganda into a teaching moment for statistical literacy.",
     type: "website",
-    url: "https://wtf-happened.vercel.app",
+    url: "https://checkthecharts.org",
   },
   twitter: {
     card: "summary_large_image",
-    title: "WTF Happened? — Data Literacy Project",
+    title: "Check the Charts — Data Literacy Project",
     description:
       "Interactive economic charts with multi-causal analysis. Turn viral chart propaganda into a teaching moment for statistical literacy.",
   },

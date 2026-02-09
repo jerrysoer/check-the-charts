@@ -246,11 +246,11 @@ export default function Home() {
 
               <h1 className="mt-6 animate-rise-up stagger-2">
                 <span className="block text-4xl font-extrabold tracking-tight text-text-primary sm:text-5xl lg:text-6xl">
-                  WTF Happened
+                  Check the Charts<span className="text-accent-blue">.</span>
                 </span>
                 <span className="block text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                  in <span className="text-data-red">1971</span>
-                  <span className="text-accent-blue">?</span>
+                  What <em className="not-italic text-data-red">really</em> happened
+                  in <span className="text-data-red">1971</span>?
                 </span>
               </h1>
 
